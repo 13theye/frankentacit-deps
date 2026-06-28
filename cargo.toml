@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "fps",
+    "nnpipe",
+    "prat",
+]
+resolver = "2"
