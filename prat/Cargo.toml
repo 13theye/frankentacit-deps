@@ -1,0 +1,18 @@
+[package]
+name = "prat"
+authors = ["13th Eye <jjhh@13theye.com>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+audio_thread_priority = "0.33"
+rusty_link = "0.4"
+tokio = { version = "1", features = ["sync"] }
+
+[lib]
+name = "prat"
+path = "src/lib.rs"
+
+[[bin]]
+name = "prat-example"
+path = "src/main.rs"
